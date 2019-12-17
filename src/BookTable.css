@@ -1,0 +1,24 @@
+.book-total {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.blank-box {
+    height: 380px;
+}
+
+.red {
+    color: red;
+}
+
+@media (max-width: 750px) {
+    .book-total {
+        width: calc(100% - 150px);
+    }
+}
+
+@media (max-width: 600px) {
+    .book-total {
+        width: 380px;
+    }
+}

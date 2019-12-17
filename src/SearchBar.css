@@ -1,0 +1,35 @@
+.Search-box {
+    margin: 30px auto;
+    text-align: center;
+}
+
+.input-box {
+    width: 450px;
+    height: 40px;
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+.submit-box {
+    width: 80px;
+    font-size: 18px;
+    height: 40px;
+}
+
+.Search-start {
+    text-align: center;
+    height: 320px;
+    padding-top: 200px;
+}
+
+@media (max-width: 750px) {
+    .input-box {
+        width: calc(100% - 300px);
+    }
+}
+
+@media (max-width: 600px) {
+    .input-box {
+        width: 250px;
+    }
+}

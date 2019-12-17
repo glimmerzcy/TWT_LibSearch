@@ -1,0 +1,46 @@
+.book-card {
+    height: 190px;
+    width: 600px;
+    background: #fff;
+    border-style: solid;
+    border-color: black;
+    margin: 10px auto;
+}
+
+.book-image {
+    height: 160px;
+    float: left;
+    margin: 10px;
+}
+
+.book-info {
+    float: left;
+    margin-left: 30px;
+}
+
+.book-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+@media (max-width: 750px) {
+    .book-card {
+        width: calc(100% - 150px);
+    }
+    .book-info {
+        margin-left: 10px;
+    }
+    
+}
+
+@media (max-width: 700px) {
+    .book-image {
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+    .book-card {
+        width: 380px;
+    }
+}

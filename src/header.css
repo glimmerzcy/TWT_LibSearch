@@ -1,0 +1,44 @@
+.inverted-color {
+    background-color: #f80808;
+    color: #EEE;
+}
+
+.nav-personal-info {
+    position: absolute;
+    right: 0px;
+    bottom: 10px;
+    max-width: 50%;
+    text-align: right;
+    font-size: 20px;
+}
+
+.fixed-width-container {
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+.header .fixed-width-container {
+    height: 60px;
+    width: 80%;
+}
+
+.nav-logo {
+    position: absolute;
+    display: block;
+    left: -10px;
+    bottom: -20px;
+    height: 100px;
+
+    width: 250px;
+}
+
+.account-icon {
+    height: 20px;
+    margin-right: 6px;
+}
+
+@media (max-width: 500px) {
+    .header .fixed-width-container {
+        width: 95%;
+    }
+}

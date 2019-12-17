@@ -1,0 +1,19 @@
+.fixed-width-container {
+    max-width: 950px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.footer .fixed-width-container {
+    padding: 1px;
+}
+
+small {
+    opacity: 0.3;
+    letter-spacing: 4px;
+}
+
+.inverted-color {
+    background-color: rgb(206, 18, 18);
+    color: #EEE;
+}
